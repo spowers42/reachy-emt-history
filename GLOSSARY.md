@@ -6,7 +6,11 @@
 
 **Environment**: The care setting a Case takes place in, one of: Urban/Suburban, Rural, Wilderness. Shapes which emergencies are plausible and the circumstances around them. Our Wilderness means remote, delayed-care settings; it is _not_ the NEMSIS/USDA geographic "Wilderness" code.
 
-**Case**: A single simulated emergency-medicine patient, randomly generated when a Session starts and hidden from the Trainee. Holds the underlying condition, chief complaint, and every answer the Patient can give. The Case is the source of truth for both the Patient's answers and the Debrief.
+**Case**: A single simulated emergency-medicine patient, randomly generated when a Session starts and hidden from the Trainee. Holds the Underlying Condition, Chief Complaint, and every answer the Patient can give. The Case is the source of truth for both the Patient's answers and the Debrief.
+
+**Underlying Condition**: The actual medical problem behind a Case (e.g. sepsis, stroke, AMI, hypoglycemia, severe dehydration). Always a real diagnosis, never a vague complaint. It is what the Trainee's Field Impression is judged against.
+
+**Chief Complaint**: What the Patient says is wrong, in their own words. The Patient doesn't know their Underlying Condition, so the Chief Complaint is often vague ("I just feel weak") and many Underlying Conditions can share one. _Avoid_ treating a Chief Complaint such as weakness or malaise as a Case's condition.
 
 **Session**: One practice run: a Case is generated, the Trainee interviews the Patient, states a Field Impression, and receives a Debrief.
 
