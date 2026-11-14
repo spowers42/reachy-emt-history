@@ -10,7 +10,11 @@
 
 **Underlying Condition**: The actual medical problem behind a Case (e.g. sepsis, stroke, AMI, hypoglycemia, severe dehydration). Always a real diagnosis, never a vague complaint. It is what the Trainee's Field Impression is judged against.
 
-**Chief Complaint**: What the Patient says is wrong, in their own words. The Patient doesn't know their Underlying Condition, so the Chief Complaint is often vague ("I just feel weak") and many Underlying Conditions can share one. _Avoid_ treating a Chief Complaint such as weakness or malaise as a Case's condition.
+**Chief Complaint**: What the Patient (or Caller) says is wrong, in their own words. It is often vague ("I just feel weak"), and many Underlying Conditions can share one. _Avoid_ treating a Chief Complaint such as weakness or malaise as a Case's condition.
+
+**Caller**: The person who requested EMS: the Patient, or a bystander, friend, or family member. What the Caller reported becomes the dispatch information the Trainee starts with, which may differ from what the Patient says.
+
+**Patient Insight**: How well the Patient understands their own Underlying Condition. It varies by Case: a long-term diabetic may know exactly what is happening, while an elderly Patient with multiple medical problems may not. These are tendencies, not rules.
 
 **Session**: One practice run: a Case is generated, the Trainee interviews the Patient, states a Field Impression, and receives a Debrief.
 
