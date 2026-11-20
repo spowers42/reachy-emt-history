@@ -4,6 +4,8 @@
 
 **Provider Level**: The Trainee's certification stage, one of: EMT Student, EMT, AEMT Student, AEMT, Paramedic Student, Paramedic. Shapes what is expected of the Trainee and how feedback is pitched.
 
+**Wilderness Certification**: Whether the Trainee is practicing as a wilderness-certified provider. When set, Wilderness Cases hold levels below Paramedic to WFR/WEMT expectations and Paramedics to WP-C expectations. It has no effect outside the Wilderness Environment and is separate from Provider Level.
+
 **Environment**: The care setting a Case takes place in, one of: Urban/Suburban, Rural, Wilderness. Shapes which emergencies are plausible and the circumstances around them. Our Wilderness means remote, delayed-care settings; it is _not_ the NEMSIS/USDA geographic "Wilderness" code.
 
 **Case**: A single simulated emergency-medicine patient, randomly generated when a Session starts and hidden from the Trainee. Holds the Underlying Condition, Chief Complaint, and every answer the Patient can give. The Case is the source of truth for both the Patient's answers and the Debrief.
