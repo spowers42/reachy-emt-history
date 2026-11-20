@@ -12,7 +12,11 @@
 
 **Chief Complaint**: What the Patient (or Caller) says is wrong, in their own words. It is often vague ("I just feel weak"), and many Underlying Conditions can share one. _Avoid_ treating a Chief Complaint such as weakness or malaise as a Case's condition.
 
-**Caller**: The person who requested EMS: the Patient, or a bystander, friend, or family member. What the Caller reported becomes the dispatch information the Trainee starts with, which may differ from what the Patient says.
+**Caller**: The person who requested EMS: the Patient, or a bystander, friend, or family member. What the Caller reported feeds the Dispatch Summary, which may differ from what the Patient says.
+
+**Bystander**: A person on scene with the Patient (parent, caregiver, family member, friend, partner) who can answer questions the Patient can't. A Case may have one or none. Their knowledge can be incomplete or wrong. Often the same person as the Caller, but a Caller who phoned from elsewhere is not a Bystander.
+
+**Dispatch Summary**: What the Trainee is told once the Case is ready: the Caller's report, a general description of what is happening, and a reminder that the primary assessment (ABCs) is done and they are now on the secondary assessment.
 
 **Patient Insight**: How well the Patient understands their own Underlying Condition. It varies by Case: a long-term diabetic may know exactly what is happening, while an elderly Patient with multiple medical problems may not. These are tendencies, not rules.
 
@@ -34,4 +38,4 @@
 
 **Wilderness Condition**: A condition specific to the Wilderness Environment and outside normal EMS, e.g. Acute Mountain Sickness, HAPE, HACE. _Avoid_ the bare abbreviation "AMS", which in EMS usually means Altered Mental Status; spell it out.
 
-**Vitals**: Measurements (pulse, BP, respirations, SpO2, etc.) the Trainee may request; supplied as Case data, not physically performed.
+**Vitals**: Measurements (pulse, BP, respirations, SpO2, etc.) the Trainee may request; supplied as Case data, not physically performed. Vitals follow the Case's trend during the interview: a severe STEMI worsens, while an anxious Patient who is calmed may improve.
